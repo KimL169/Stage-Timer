@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B85A86D1C8211610073CCF8 /* gong-burmese.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B85A86C1C8211610073CCF8 /* gong-burmese.wav */; settings = {ASSET_TAGS = (); }; };
 		3B96C9471C527DF00080FD11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B96C9461C527DF00080FD11 /* main.m */; };
 		3B96C94A1C527DF00080FD11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B96C9491C527DF00080FD11 /* AppDelegate.m */; };
 		3B96C94D1C527DF00080FD11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B96C94C1C527DF00080FD11 /* ViewController.m */; };
@@ -14,9 +15,17 @@
 		3B96C9531C527DF00080FD11 /* MeditationTimer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B96C9511C527DF00080FD11 /* MeditationTimer.xcdatamodeld */; };
 		3B96C9551C527DF00080FD11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B96C9541C527DF00080FD11 /* Assets.xcassets */; };
 		3B96C9581C527DF00080FD11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B96C9561C527DF00080FD11 /* LaunchScreen.storyboard */; };
+		3B96C9611C528F930080FD11 /* NSNumber+time.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B96C9601C528F930080FD11 /* NSNumber+time.m */; settings = {ASSET_TAGS = (); }; };
+		3B96C9641C5291F30080FD11 /* SegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B96C9631C5291F30080FD11 /* SegmentViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3B96C9671C5293C40080FD11 /* CoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B96C9661C5293C40080FD11 /* CoreDataViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3B96C96A1C5295070080FD11 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B96C9691C5295070080FD11 /* NSDate+Utilities.m */; settings = {ASSET_TAGS = (); }; };
+		3B96C9781C529A2D0080FD11 /* Segment+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B96C9751C529A2D0080FD11 /* Segment+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		3B96C9791C529A2D0080FD11 /* Segment.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B96C9771C529A2D0080FD11 /* Segment.m */; settings = {ASSET_TAGS = (); }; };
+		3B96C97C1C52B7FC0080FD11 /* SegmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B96C97B1C52B7FC0080FD11 /* SegmentCell.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B85A86C1C8211610073CCF8 /* gong-burmese.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "gong-burmese.wav"; sourceTree = "<group>"; };
 		3B96C9421C527DF00080FD11 /* MeditationTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeditationTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B96C9461C527DF00080FD11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3B96C9481C527DF00080FD11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +37,20 @@
 		3B96C9541C527DF00080FD11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B96C9571C527DF00080FD11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B96C9591C527DF00080FD11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B96C95F1C528F930080FD11 /* NSNumber+time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+time.h"; sourceTree = "<group>"; };
+		3B96C9601C528F930080FD11 /* NSNumber+time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+time.m"; sourceTree = "<group>"; };
+		3B96C9621C5291F30080FD11 /* SegmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentViewController.h; sourceTree = "<group>"; };
+		3B96C9631C5291F30080FD11 /* SegmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentViewController.m; sourceTree = "<group>"; };
+		3B96C9651C5293C40080FD11 /* CoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataViewController.h; sourceTree = "<group>"; };
+		3B96C9661C5293C40080FD11 /* CoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataViewController.m; sourceTree = "<group>"; };
+		3B96C9681C5295070080FD11 /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
+		3B96C9691C5295070080FD11 /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
+		3B96C9741C529A2D0080FD11 /* Segment+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Segment+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3B96C9751C529A2D0080FD11 /* Segment+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Segment+CoreDataProperties.m"; sourceTree = "<group>"; };
+		3B96C9761C529A2D0080FD11 /* Segment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Segment.h; sourceTree = "<group>"; };
+		3B96C9771C529A2D0080FD11 /* Segment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Segment.m; sourceTree = "<group>"; };
+		3B96C97A1C52B7FC0080FD11 /* SegmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentCell.h; sourceTree = "<group>"; };
+		3B96C97B1C52B7FC0080FD11 /* SegmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +83,18 @@
 		3B96C9441C527DF00080FD11 /* MeditationTimer */ = {
 			isa = PBXGroup;
 			children = (
-				3B96C9481C527DF00080FD11 /* AppDelegate.h */,
-				3B96C9491C527DF00080FD11 /* AppDelegate.m */,
 				3B96C94B1C527DF00080FD11 /* ViewController.h */,
 				3B96C94C1C527DF00080FD11 /* ViewController.m */,
+				3B96C9621C5291F30080FD11 /* SegmentViewController.h */,
+				3B96C9631C5291F30080FD11 /* SegmentViewController.m */,
+				3B96C9651C5293C40080FD11 /* CoreDataViewController.h */,
+				3B96C9661C5293C40080FD11 /* CoreDataViewController.m */,
 				3B96C94E1C527DF00080FD11 /* Main.storyboard */,
+				3B96C97A1C52B7FC0080FD11 /* SegmentCell.h */,
+				3B96C97B1C52B7FC0080FD11 /* SegmentCell.m */,
 				3B96C9541C527DF00080FD11 /* Assets.xcassets */,
 				3B96C9561C527DF00080FD11 /* LaunchScreen.storyboard */,
 				3B96C9591C527DF00080FD11 /* Info.plist */,
-				3B96C9511C527DF00080FD11 /* MeditationTimer.xcdatamodeld */,
 				3B96C9451C527DF00080FD11 /* Supporting Files */,
 			);
 			path = MeditationTimer;
@@ -77,6 +103,18 @@
 		3B96C9451C527DF00080FD11 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3B96C9511C527DF00080FD11 /* MeditationTimer.xcdatamodeld */,
+				3B96C9741C529A2D0080FD11 /* Segment+CoreDataProperties.h */,
+				3B96C9751C529A2D0080FD11 /* Segment+CoreDataProperties.m */,
+				3B96C9761C529A2D0080FD11 /* Segment.h */,
+				3B96C9771C529A2D0080FD11 /* Segment.m */,
+				3B96C95F1C528F930080FD11 /* NSNumber+time.h */,
+				3B96C9601C528F930080FD11 /* NSNumber+time.m */,
+				3B96C9681C5295070080FD11 /* NSDate+Utilities.h */,
+				3B96C9691C5295070080FD11 /* NSDate+Utilities.m */,
+				3B85A86C1C8211610073CCF8 /* gong-burmese.wav */,
+				3B96C9481C527DF00080FD11 /* AppDelegate.h */,
+				3B96C9491C527DF00080FD11 /* AppDelegate.m */,
 				3B96C9461C527DF00080FD11 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -142,6 +180,7 @@
 				3B96C9581C527DF00080FD11 /* LaunchScreen.storyboard in Resources */,
 				3B96C9551C527DF00080FD11 /* Assets.xcassets in Resources */,
 				3B96C9501C527DF00080FD11 /* Main.storyboard in Resources */,
+				3B85A86D1C8211610073CCF8 /* gong-burmese.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,10 +191,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B96C9641C5291F30080FD11 /* SegmentViewController.m in Sources */,
+				3B96C9611C528F930080FD11 /* NSNumber+time.m in Sources */,
+				3B96C9781C529A2D0080FD11 /* Segment+CoreDataProperties.m in Sources */,
 				3B96C94D1C527DF00080FD11 /* ViewController.m in Sources */,
+				3B96C96A1C5295070080FD11 /* NSDate+Utilities.m in Sources */,
 				3B96C94A1C527DF00080FD11 /* AppDelegate.m in Sources */,
 				3B96C9471C527DF00080FD11 /* main.m in Sources */,
+				3B96C97C1C52B7FC0080FD11 /* SegmentCell.m in Sources */,
+				3B96C9791C529A2D0080FD11 /* Segment.m in Sources */,
 				3B96C9531C527DF00080FD11 /* MeditationTimer.xcdatamodeld in Sources */,
+				3B96C9671C5293C40080FD11 /* CoreDataViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +348,7 @@
 				3B96C95E1C527DF00080FD11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
